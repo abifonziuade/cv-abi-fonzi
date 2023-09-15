@@ -1,0 +1,28 @@
+.experiencia-container {
+    margin-left: 1.5%;
+}
+
+.experiencia-container>.experiencia-item {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border-bottom: solid 1.5px #E9ECEF;
+    border-left: solid 1.5px #E9ECEF;
+    padding-left: 1%;
+    width: 50%;
+}
+
+.experiencia-container>.experiencia-item>.first-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.experiencia-container>.experiencia-item>.second-item {
+    color: #6C757D;
+    font-size: 14px;
+}
+
+.experiencia-container>.experiencia-item>.third-item {
+    color: #507DBC;
+    font-size: 14px;
+}
