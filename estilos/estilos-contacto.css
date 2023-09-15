@@ -8,26 +8,31 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 450px;
 }
 
 .contact-content>form>.contact-input {
-	background-color: #fbfbfb; 
-	width: 408px; 
+	background: #F8F9FA;
 	height: 30px; 
+  color: #6C757D;
 	border-radius: 10px;  
 	border-style: solid; 
 	border-width: 1px;
   font-family: 'Poppins', sans-serif;
 	border-color: #ADB5BD; 
 	padding-left: 10px;
+  box-sizing: border-box;
 }
 
 .contact-content>form>.contact-input:focus {
-	border-color: #507DBC; 
+	border-color: #507DBC;
+  border-width: 2px; 
 }
 
 .contact-content>form>.contact-textarea {
-	height: 120px; 
+	height: 120px;
+  padding-top: 8px;
+  resize: none;
 }
 
 .contact-content>form>button {
@@ -69,4 +74,21 @@
 .info-item>i {
   font-size: 23px;
   color: #333333;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #CED4DA;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #CED4DA;
+}
+
+::-ms-input-placeholder {
+  color: #CED4DA;
 }
