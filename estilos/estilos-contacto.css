@@ -1,6 +1,71 @@
-/*input[type=text], select, textarea {
-  padding: 10px;
-  border-radius: 12px;
-  width: 50%;
- padding-bottom:10px;
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.contact-content>form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-content>form>.contact-input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 30px; 
+	border-radius: 10px;  
+	border-style: solid; 
+	border-width: 1px;
+  font-family: 'Poppins', sans-serif;
+	border-color: #ADB5BD; 
+	padding-left: 10px;
+}
+
+.contact-content>form>.contact-input:focus{
+	border-color: #507DBC; 
+}
+
+.contact-content>form>.contact-textarea{
+	height: 120px; 
+}
+
+.contact-content>form>button {
+  font-family: 'Poppins', sans-serif;
+  width: 30%;
+  margin-top: 1%;
+  padding: 8px;
+  color: #333;
+  font-size: 16px;
+  border-radius: 13px;
+  border: 2px solid #507DBC;
+  background: #F8F9FA;
+  cursor: pointer;
+}
+
+.contact-content>form>button:hover {
+  background: #507DBC;
+  color: #F8F9FA;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.info-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-item>p {
+  font-size: 18px;
+  color: #6C757D;
+}
+
+.info-item>i {
+  font-size: 23px;
+  color: #333333;
 }
