@@ -10,7 +10,7 @@
   gap: 10px;
 }
 
-.contact-content>form>.contact-input{
+.contact-content>form>.contact-input {
 	background-color: #fbfbfb; 
 	width: 408px; 
 	height: 30px; 
@@ -22,11 +22,11 @@
 	padding-left: 10px;
 }
 
-.contact-content>form>.contact-input:focus{
+.contact-content>form>.contact-input:focus {
 	border-color: #507DBC; 
 }
 
-.contact-content>form>.contact-textarea{
+.contact-content>form>.contact-textarea {
 	height: 120px; 
 }
 
@@ -53,6 +53,7 @@
   flex-direction: column;
   gap: 60px;
 }
+
 .info-item {
   display: flex;
   flex-direction: row;
