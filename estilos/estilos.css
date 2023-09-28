@@ -38,6 +38,10 @@ header a.selected {
     color: #507DBC;
 }
 
+header i{
+    --fa-display: none;
+}
+
 .content {
     margin: 3% 8%;
 }
@@ -94,6 +98,10 @@ footer p {
     color: #6C757D;
 }
 
+.responsive-index {
+    display: none;
+}
+
 @media (max-width: 992px) {
     footer {
         flex-direction: column;
@@ -101,5 +109,16 @@ footer p {
         padding-top: 1rem;
         justify-content: space-around;
     }
+
+    header a {
+display: none;
+    }
+
+    header i{
+        --fa-display:block;
+    }
     
+    .responsive-index{
+        display: block;
+    }
 }

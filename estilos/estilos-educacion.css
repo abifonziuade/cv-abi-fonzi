@@ -16,17 +16,17 @@
 }
 
 .education-container>.education-item>.first-item {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #333333;
 }
 
 .education-container>.education-item>.second-item {
     color: #6C757D;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .education-container>.education-item>.third-item {
     color: #507DBC;
-    font-size: 14px;
+    font-size: 1rem;
 }

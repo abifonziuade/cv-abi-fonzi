@@ -1,26 +1,26 @@
 .contact-content {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  gap: 5rem;
 }
 
 .contact-content>form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 450px;
+  gap: 1rem;
+  width: 30%;
 }
 
 .contact-content>form>.contact-input {
 	background: #F8F9FA;
-	height: 30px; 
+	height: 15%; 
   color: #6C757D;
 	border-radius: 10px;  
 	border-style: solid; 
 	border-width: 1px;
   font-family: 'Poppins', sans-serif;
 	border-color: #ADB5BD; 
-	padding-left: 10px;
+	padding-left: 4%;
   box-sizing: border-box;
 }
 
@@ -31,7 +31,7 @@
 
 .contact-content>form>.contact-textarea {
 	height: 120px;
-  padding-top: 8px;
+  padding-top: 2%;
   resize: none;
 }
 
@@ -39,9 +39,9 @@
   font-family: 'Poppins', sans-serif;
   width: 30%;
   margin-top: 1%;
-  padding: 8px;
+  padding: 0.5rem;
   color: #333;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 13px;
   border: 2px solid #507DBC;
   background: #F8F9FA;
@@ -56,23 +56,23 @@
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 2rem;
 }
 
 .info-item {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .info-item>p {
-  font-size: 18px;
+  font-size: 1rem;
   color: #6C757D;
 }
 
 .info-item>i {
-  font-size: 23px;
+  font-size: 1.3rem;
   color: #333333;
 }
 
@@ -92,3 +92,16 @@ textarea:focus, input:focus {
 ::-ms-input-placeholder {
   color: #CED4DA;
 }
+
+
+@media (max-width: 992px) {
+  .contact-content {
+      flex-direction: column;
+      gap: 2rem;
+  }
+  .contact-content>form{
+    width: 80%;
+    padding-top: 1rem;
+  }
+}
+

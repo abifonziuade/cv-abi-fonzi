@@ -12,17 +12,17 @@
 }
 
 .experiencia-container>.experiencia-item>.first-item {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #333333;
 }
 
 .experiencia-container>.experiencia-item>.second-item {
     color: #6C757D;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .experiencia-container>.experiencia-item>.third-item {
     color: #507DBC;
-    font-size: 14px;
+    font-size: 1rem;
 }
