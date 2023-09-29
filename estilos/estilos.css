@@ -111,14 +111,25 @@ footer p {
     }
 
     header a {
-display: none;
+        display: none;
     }
 
     header i{
         --fa-display:block;
+        color: #6C757D;
+        font-size: 2rem;
     }
     
-    .responsive-index{
+    .responsive-index {
         display: block;
+        font-size: 2rem;
+        color: #6C757D;
+        font-weight: 600;
+    }
+
+    header {
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
