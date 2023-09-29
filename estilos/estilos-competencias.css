@@ -42,7 +42,7 @@
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 860px) {
     .competencias-container>.competencias-item
     {
         padding-left: 3%;
