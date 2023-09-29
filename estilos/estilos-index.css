@@ -78,7 +78,7 @@
     color: #F8F9FA;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 860px) {
     .content {
         flex-direction: column;
     }
