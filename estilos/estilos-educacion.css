@@ -30,3 +30,12 @@
     color: #507DBC;
     font-size: 1rem;
 }
+
+/* -------------- DARKMODE -------------- */
+.darkmode .education-container>.education-item>.first-item{
+    color: #ffff;
+}
+
+.darkmode .education-container>.education-item>.second-item{
+    color: #ffff;
+}

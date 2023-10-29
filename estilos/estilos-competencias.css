@@ -48,3 +48,12 @@
         padding-left: 3%;
     }
 }
+
+/* -------------- DARKMODE -------------- */
+.darkmode .competencias-container>.competencias-item>.first-item{
+    color: #fff;
+}
+
+.darkmode .competencias-container>.competencias-item>ul>li{
+    color: #fff;
+}

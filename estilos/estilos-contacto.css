@@ -105,3 +105,19 @@ textarea:focus, input:focus {
   }
 }
 
+/* -------------- DARKMODE -------------- */
+.darkmode .contact-content>form>.contact-input{
+  border: none;
+}
+
+.darkmode .contact-content>form>button{
+  border: none;
+}
+
+.darkmode .info-item>p{
+  color: #fff;
+}
+
+.darkmode .info-item>i{
+  color: #fff;
+}

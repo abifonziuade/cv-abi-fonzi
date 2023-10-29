@@ -23,8 +23,8 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 5rem;
-  padding-right: 5rem;
+  gap: 4rem;
+  padding-right: 1rem;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -135,7 +135,7 @@ color: #495057;
 }
 
 a.selected {
-color: #507DBC;;
+color: #507DBC;
 }
 
 a.selectable{
@@ -158,6 +158,44 @@ a.selectable{
 
 .side-menu:checked ~ nav{
   max-height: 50%;
+}
+
+.btn{
+    background-color: #fff;
+    width: 4em;
+    height: 2em;
+    padding: 0.2em;
+    border-radius: 10em;
+    box-shadow: inset 0 8px 60px rgba(0,0,0, .1),
+                inset 0 8px 8px rgba(0,0,0, .1),
+                inset 0 -4px 4px rgba(0,0,0, .1);
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn__indicator{
+    background-color: #fff;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 8px 40px rgba(0,0,0, .2);  
+    transition: transform .3s ease;
+}
+
+.btn__icon-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__icon{
+    color: #FFDE59;
+    font-size: 1rem;
 }
 
 @media (max-width: 860px) {
@@ -192,4 +230,73 @@ a.selectable{
         margin-top: 3%;
         font-weight: 600;
     }
+}
+
+/* -------------- DARKMODE -------------- */
+body.darkmode{
+    background-color: #000;
+}
+
+.darkmode .header{
+    background-color: #000;
+}
+
+.darkmode .header-mobile{
+    background-color: #000;
+}
+
+.darkmode header a{
+    color: #fff;
+}
+
+.darkmode .nav{
+    background-color: #000;
+}
+
+.darkmode .menu a{
+    color: #fff;
+}
+
+.darkmode .content>.title-all>p{
+    color: #fff;
+}
+
+.darkmode footer{
+    background-color: #000;
+}
+
+.darkmode footer .footer-icons i{
+    color: #fff;
+}
+
+.darkmode footer p{
+    color: #fff;
+}
+
+.darkmode .footer-container{
+    color: #fff;
+}
+
+.darkmode a.selectable{
+    color: #fff;
+}
+
+.darkmode header i{
+    color: #fff;
+}
+
+.darkmode .btn{
+    box-shadow: inset 0 8px 60px rgba(0,0,0, .3),
+                inset 8px 0 8px rgba(0,0,0, .3),
+                inset 0 -4px 4px rgba(0,0,0, .3);
+}
+
+.darkmode .btn__indicator{
+    transform: translateX(2em);
+    background-color: #2b2b2b;
+    box-shadow: 0 8px 40px rgba(0,0,0, .3);
+}
+
+.darkmode .btn__icon{
+    color: #fff;
 }

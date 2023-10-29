@@ -26,3 +26,12 @@
     color: #507DBC;
     font-size: 1rem;
 }
+
+/* -------------- DARKMODE -------------- */
+.darkmode .experiencia-container>.experiencia-item>.first-item{
+    color: #fff;
+}
+
+.darkmode .experiencia-container>.experiencia-item>.second-item{
+    color: #fff;
+}

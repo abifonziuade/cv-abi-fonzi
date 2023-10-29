@@ -106,3 +106,20 @@
         gap: 1rem;
     }
 }
+
+/* -------------- DARKMODE -------------- */
+.darkmode .content>.content-text>.text-hi{
+    color: #fff;
+}
+
+.darkmode .content>.content-text>.text-name{
+    color: #fff;
+}
+
+.darkmode .content>.content-text>.text-description{
+    color: #fff;
+}
+
+.darkmode .content>.content-text>button{
+    border: none;
+}
