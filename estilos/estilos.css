@@ -286,6 +286,10 @@ body.darkmode{
     background-color: #000;
 }
 
+.darkmode .selected{
+    color: #507DBC;
+}
+
 .darkmode .menu a{
     color: #fff;
 }
