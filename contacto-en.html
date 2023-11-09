@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estilos-contacto.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script src="https://kit.fontawesome.com/85f636b7ea.js" crossorigin="anonymous"></script>
 </head>
 
@@ -54,11 +55,11 @@
             </div>
         </div>
         <div class="contact-content">
-            <form method="post">
-                <input class="contact-input" type="text" id="nombre" required="obligatorio" placeholder="Name">
-                <input class="contact-input" type="email" id="email" required="obligatorio" placeholder="Email">
-                <input class="contact-input" type="text" id="asunto" required="obligatorio" placeholder="Subject">
-                <textarea maxlength="300" class="contact-input contact-textarea" id="mensaje" required="obligatorio" placeholder="Your message here"></textarea>
+            <form method="post" id="contact-form">
+                <input class="contact-input" type="text" name="nombre" required placeholder="Name">
+                <input class="contact-input" type="text" name="email" required placeholder="Email">
+                <input class="contact-input" type="text" name="asunto" required placeholder="Subject">
+                <textarea maxlength="300" class="contact-input contact-textarea" name="mensaje" required placeholder="Your message here"></textarea>
                 <button type="submit">Send</button>
             </form>
             <div class="contact-info">
@@ -101,6 +102,8 @@
         <p>© 2023 All rights reserved.</p>
     </footer>
     <script src="./darkmode.js"></script>
+    <script src="./formValidationEn.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>

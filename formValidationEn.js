@@ -7,7 +7,7 @@ form.onsubmit = (event) => {
 
     if (!formObject.email.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)) {
         Toastify({
-            text: "Por favor ingrese un email válido",
+            text: "Please enter a valid email",
             duration: 2000,
             close: true,
             gravity: "bottom",
@@ -23,7 +23,7 @@ form.onsubmit = (event) => {
         }).showToast();
     } else {
         Toastify({
-            text: "Gracias por tu mensaje! En breve me estaré contactando con vos",
+            text: "Thank you for your message! I'll be contacting you soon",
             duration: 3000,
             close: true,
             gravity: "bottom",
