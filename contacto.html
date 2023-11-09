@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilos/estilos.css">
         <link rel="stylesheet" href="estilos/estilos-contacto.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
         <script src="https://kit.fontawesome.com/85f636b7ea.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -52,26 +53,33 @@
                 </div>
             </div>
             <div class="contact-content">
-                <form>
-                    <input class="contact-input" type="text" id="nombre" required="obligatorio" placeholder="Nombre">
-                    <input class="contact-input" type="text" id="email" required="obligatorio" placeholder="Email">
-                    <input class="contact-input" type="text" id="asunto" required="obligatorio" placeholder="Asunto">
-                    <textarea class="contact-input contact-textarea" id="mensaje" required="obligatorio" placeholder="Mensaje"></textarea>
+                <form id="contact-form">
+                    <input class="contact-input" type="text" name="nombre" required placeholder="Nombre">
+                    <input class="contact-input" type="text" name="email" required placeholder="Email">
+                    <input class="contact-input" type="text" name="asunto" required placeholder="Asunto">
+                    <textarea maxlength="300" class="contact-input contact-textarea" name="mensaje" required placeholder="Mensaje"></textarea>
                     <button type="submit">Enviar</button>
                 </form>
                 <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fas fa-location-dot"></i>
-                        <p>Lorenzini 2450, Provincia de Buenos Aires</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>afonzi@uade.edu.ar</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone-volume"></i>
-                        <p>+5491121575516</p>
-                    </div>
+                    <a target="_blank" href="https://maps.app.goo.gl/zR4CSbt8wP8ThRYN8">
+                        <div class="info-item">
+                            <i class="fas fa-location-dot"></i>
+                            <p>Geranios 6071, Provincia de Buenos Aires</p>
+                        </div>
+                    </a>
+                    <a target="_blank" href="mailto:afonzi@uade.edu.ar">
+                        <div class="info-item">
+                        
+                            <i class="fas fa-envelope"></i>
+                            <p>afonzi@uade.edu.ar</p>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://wa.me/5491156993296?text=¡Hola!%20Quiero%20contactarme%20con%20vos!">
+                        <div class="info-item">
+                            <i class="fas fa-phone-volume"></i>
+                            <p>+5491121575516</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -91,5 +99,7 @@
             <p>© 2023 Todos los derechos reservados.</p>
         </footer>
         <script src="./darkmode.js"></script>
+        <script src="./formValidation.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     </body>
 </html>

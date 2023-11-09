@@ -1,86 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Curriculum Abi Fonzi</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilos/estilos.css">
-        <link rel="stylesheet" href="estilos/estilos-contacto.css">
-        <script src="https://kit.fontawesome.com/85f636b7ea.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header class="header">
-          <a href="index-en.html">Home</a>
-          <a href="educacion-en.html">Education</a>
-          <a href="competencias-en.html">Skills</a>
-          <a href="experiencia-en.html">Experience</a>
-          <a class="selected" href="contacto-en.html">Contact</a>
-          <div class="btn">
-            <div class="btn__indicator">
-              <div class="btn__icon-container">
-                <i class="btn__icon fa-solid"></i>
-              </div>
-            </div>
-          </div>
-        </header>
-        <header class="header-mobile">
-            <div class="btn-mobile">
-                <div class="btn__indicator">
-                  <div class="btn__icon-container">
-                    <i class="btn__icon-mobile fa-solid"></i>
-                  </div>
-                </div>
-            </div>
-          <input class="side-menu" type="checkbox" id="side-menu"/>
-          <label class="hamb" for="side-menu"><i class="fa-solid fa-bars"></i></label>
-          <nav class="nav">
-              <ul class="menu">
-                  <li><a href="index-en.html">Home</a></li>
-                  <li><a href="educacion-en.html">Education</a></li>
-                  <li><a href="competencias-en.html">Skills</a></li>
-                  <li><a href="experiencia-en.html">Experience</a></li>
-                  <li><a class="selected" href="contacto-en.html">Contact</a></li>
-              </ul>
-          </nav>
-        </header>
 
-        <div class="content">
-            <div class="title-all">
-                <p>Contact</p>
-                <div class="container">
-                    <div class="bar"></div>
+<head>
+    <title>Curriculum Abi Fonzi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos-contacto.css">
+    <script src="https://kit.fontawesome.com/85f636b7ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index-en.html">Home</a>
+        <a href="educacion-en.html">Education</a>
+        <a href="competencias-en.html">Skills</a>
+        <a href="experiencia-en.html">Experience</a>
+        <a class="selected" href="contacto-en.html">Contact</a>
+        <div class="btn">
+            <div class="btn__indicator">
+                <div class="btn__icon-container">
+                    <i class="btn__icon fa-solid"></i>
                 </div>
             </div>
-            <div class="contact-content">
-                <form>
-                    <input class="contact-input" type="text" id="nombre" required="obligatorio" placeholder="Name">
-                    <input class="contact-input" type="text" id="email" required="obligatorio" placeholder="Email">
-                    <input class="contact-input" type="text" id="asunto" required="obligatorio" placeholder="Subject">
-                    <textarea class="contact-input contact-textarea" id="mensaje" required="obligatorio" placeholder="Your message here"></textarea>
-                    <button type="submit">Send</button>
-                </form>
-                <div class="contact-info">
+        </div>
+    </header>
+    <header class="header-mobile">
+        <div class="btn-mobile">
+            <div class="btn__indicator">
+                <div class="btn__icon-container">
+                    <i class="btn__icon-mobile fa-solid"></i>
+                </div>
+            </div>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu"><i class="fa-solid fa-bars"></i></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index-en.html">Home</a></li>
+                <li><a href="educacion-en.html">Education</a></li>
+                <li><a href="competencias-en.html">Skills</a></li>
+                <li><a href="experiencia-en.html">Experience</a></li>
+                <li><a class="selected" href="contacto-en.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="title-all">
+            <p>Contact</p>
+            <div class="container">
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="contact-content">
+            <form method="post">
+                <input class="contact-input" type="text" id="nombre" required="obligatorio" placeholder="Name">
+                <input class="contact-input" type="email" id="email" required="obligatorio" placeholder="Email">
+                <input class="contact-input" type="text" id="asunto" required="obligatorio" placeholder="Subject">
+                <textarea maxlength="300" class="contact-input contact-textarea" id="mensaje" required="obligatorio" placeholder="Your message here"></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-info">
+                <a target="_blank" href="https://maps.app.goo.gl/zR4CSbt8wP8ThRYN8">
                     <div class="info-item">
                         <i class="fas fa-location-dot"></i>
-                        <p>Lorenzini 2450, Provincia de Buenos Aires</p>
+                        <p>Geranios 6071, Provincia de Buenos Aires</p>
                     </div>
+                </a>
+                <a target="_blank" href="mailto:afonzi@uade.edu.ar">
                     <div class="info-item">
+
                         <i class="fas fa-envelope"></i>
                         <p>afonzi@uade.edu.ar</p>
                     </div>
+                </a>
+                <a target="_blank" href="https://wa.me/5491156993296?text=¡Hi!%20Let's%20get%20in%20touch!">
                     <div class="info-item">
                         <i class="fas fa-phone-volume"></i>
                         <p>+5491121575516</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
-        
-        <footer>
-            <div class="footer-container">
+    </div>
+
+    <footer>
+        <div class="footer-container">
             <div class="footer-icons">
                 <a href="https://github.com/abifonziuade" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/abi-fonzi-479537279/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/abi-fonzi-479537279/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
             </div>
             <div>
                 <a href="contacto.html" class="selectable">ES</a>
@@ -88,8 +98,9 @@
                 <a class="selected">EN</a>
             </div>
         </div>
-            <p>© 2023 All rights reserved.</p>
-        </footer>
-        <script src="./darkmode.js"></script>
-    </body>
+        <p>© 2023 All rights reserved.</p>
+    </footer>
+    <script src="./darkmode.js"></script>
+</body>
+
 </html>
